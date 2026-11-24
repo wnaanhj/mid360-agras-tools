@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-24",
+  "edition": "non-commercial independent tools, not a complete SLAM application",
+  "third_party_slam_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 126,
+      "sha256": "f726e1f805deff2be7e40bb9e84ebc02ce0b043e7f9613ad008280d0203d5309",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 280,
+      "sha256": "77ad3b57563bda9d6aeb9b8de98c9686cd117ac63699387e00b9d5dbf30d087d",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/协议与单位.md",
+      "bytes": 1632,
+      "sha256": "1604b6592756637b77a6f4a175a8e1eca234a48a14ea754386b9b86497098ae6",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/发布到GitHub.md",
+      "bytes": 1280,
+      "sha256": "33dac3c40afe3af35b3bdcb9d24cc61255e6b5891bcb3e7227fdf59523bd8921",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/发布范围与隔离.md",
+      "bytes": 3054,
+      "sha256": "30360d16763939c5b8f57ca9a7ee830b79db4fcad77406409aafcde029b3adf5",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/工具使用.md",
+      "bytes": 2706,
+      "sha256": "a438488a98fc61b26f99981412f1ae02dc638d20f87fba4df710cb67272a7788",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/源码索引.md",
+      "bytes": 2617,
+      "sha256": "f22914c37ba1cebd69ca47fe63a2486ada78c34b076302554c48cdc92b647769",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "docs/验证记录.md",
+      "bytes": 5633,
+      "sha256": "2851ea3c8321286915fa93559c8067f9cdd147d35631427297dd4807b67116db",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "examples/repair_synthetic.py",
+      "bytes": 859,
+      "sha256": "58d579e55729a4de8b2140ac60e589f4627f6f53905e7481d3dd1ca405f14f2c",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "java/src/cn/t100/mapping/MotionPreview.java",
+      "bytes": 7820,
+      "sha256": "92478db44af7833fbbc0f9c9a18e00befd5ecf2cf01fd7b201783b31471ec369",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/src/cn/t100/mapping/MotionPreview.java",
+      "origin_sha256": "d2a8b5082a90c7534aa450eaf467c6dab60bf3766d8136857cac1e074f267d49",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "java/src/cn/t100/mapping/PointTools.java",
+      "bytes": 27301,
+      "sha256": "6982a4da90cf2b67f1a79e0928e766668ce5e46cd1d54b89d8b783afb9c1e221",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/src/cn/t100/mapping/PointTools.java",
+      "origin_sha256": "c51d040d57f0abd97da491c391bedf80198804e4387edfa4c402a8f1e4ebb00d",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "java/src/cn/t100/mapping/ToolHistory.java",
+      "bytes": 3802,
+      "sha256": "ba6ce5d4fc10ae3f1296084d61dad6944517f854dc206505e0e2b1ac725349a1",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/src/cn/t100/mapping/ToolHistory.java",
+      "origin_sha256": "5e9c8d5308648ff70c45831d942e3c1909e620705eb38678de81ff809269bea9",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "java/src/cn/t100/mapping/UsbFrames.java",
+      "bytes": 6550,
+      "sha256": "e529c3e41658ad1555dff03b1daa68e65189bf2ad18c34513b1fa2cba01f35d8",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/src/cn/t100/mapping/UsbFrames.java",
+      "origin_sha256": "30873b164907cfdd78fa1386579ad50caa0ed47c3627162e01fee56cd403f6b7",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "java/src/cn/t100/mapping/WhiteMesh.java",
+      "bytes": 10095,
+      "sha256": "cc9b56458792c8e17da774dc8821169ca1020c7cf178b1b7d618c2086a1df211",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/src/cn/t100/mapping/WhiteMesh.java",
+      "origin_sha256": "883bbec0be7ab03656a2487b02d67d14b20b0b76caf099eb6b55d51caef4419e",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "java/test/cn/t100/mapping/ToolsCheck.java",
+      "bytes": 9834,
+      "sha256": "61722036be810368cec47346320bbdbfe99f585b73d4aa38113542b4b893d0b4",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/手机建图/verify/toolsCheck.java",
+      "origin_sha256": "8c811c829876a90d2105cfeed92a535b715a25f476beda0a964e487d2b8a179d",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1903,
+      "sha256": "69105da3abff69d6047a1048ac913442905f5bc81e993dcd4b9a0f987c1de1fd",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1553,
+      "sha256": "afb890aae5e15291ae8425afe94040a5e3f08107d066c9534681d77ea2ea57a3",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "python/desktop/__init__.py",
+      "bytes": 94,
+      "sha256": "f1faa4ae0d760b7c5a4d1ec57c7e08a3a229dce0215b442b5c2f466ac034033e",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "python/desktop/field_geometry.py",
+      "bytes": 32457,
+      "sha256": "83e800babb14df0a9e63c4e15a561de490d89445f9c77ac791a3ba45270f6785",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/field_geometry.py",
+      "origin_sha256": "21beb939eb89f3c3cd1c47c93b839a0f4b45cde6ff1c607c75ff9617257e16f5",
+      "packaging_changes": "license header and LF; explicit mobile SQLite branch removed"
+    },
+    {
+      "path": "python/desktop/repair_compute.py",
+      "bytes": 21693,
+      "sha256": "8e7853db657d0f8c2ad5f84ffa84ae346fb95c0ef9a90047b47000bca261b8b5",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/repair_compute.py",
+      "origin_sha256": "8a79d43c1467a75b9f55bfd0597347cda55f25dfc40203948e2994745b9088bb",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/repair_core.py",
+      "bytes": 35003,
+      "sha256": "b21b2181ffc2ce62db0298f647d7d3e1e5b5bd27fd0c1ad678506646651c082d",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/repair_core.py",
+      "origin_sha256": "3c592157c0f995fbd8d08df84e1246060d6c59e4cd3e14bd1c90e19dacd2d42e",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/repair_resources.py",
+      "bytes": 3901,
+      "sha256": "1603251d8c43220dacce6b684061170694635a4915ce99109389b0a85906da61",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/repair_resources.py",
+      "origin_sha256": "227990a51b124baf121925c43e26372937c5b520a7b9585397c6c82aad5468e3",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/white_building.py",
+      "bytes": 12624,
+      "sha256": "a5b191d8590e79eddd8480b0c67b0e4ff24e767da1bc123496893cc63f6c30ef",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/white_building.py",
+      "origin_sha256": "69d91491f57bc2a092bff6b89f8560433fc74666aa667af0072ecca0732977d3",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/white_cloud_filter.py",
+      "bytes": 7848,
+      "sha256": "ebbd0f8a8b6c41eb2fe955e895e1d2b196c97662156ff74a4bed5c40f10695b1",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/white_cloud_filter.py",
+      "origin_sha256": "b76fd0d3145fb4875955f924774d85268d4b74df421bb77f320ae6b6153466f1",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/white_mesh_core.py",
+      "bytes": 15719,
+      "sha256": "4cbf1e4ff163cef25c6ff83fe02584d3ed105b98d42d5b5c334e6dd198fc8d73",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/white_mesh_core.py",
+      "origin_sha256": "9518b5e546e401341a098b46c45c98f1b1208032aaae1eac66a749538feade96",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/desktop/white_mesh_io.py",
+      "bytes": 12482,
+      "sha256": "4040004e85b42e5a84be9bdddaaf7bb85ba3a77f7a8942fc570b6709b32363f9",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/desktop/white_mesh_io.py",
+      "origin_sha256": "561cd662cb70e7f4c45ff0ccd3d7a96392646353f7fdbb9b120ec31ea75ebce2",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/radar_client/__init__.py",
+      "bytes": 94,
+      "sha256": "f1faa4ae0d760b7c5a4d1ec57c7e08a3a229dce0215b442b5c2f466ac034033e",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "python/radar_client/t100_preview_motion.py",
+      "bytes": 3550,
+      "sha256": "25b07bacfb2ac005e4a4dd8c12d730b45c218dd5f5cc25f029fa16e844440e66",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/radar_client/t100_preview_motion.py",
+      "origin_sha256": "5d53f9028bc4640d47e66d136e721917ebcb41e01b4beed31aa48af14e418894",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/radar_client/t100_stream.py",
+      "bytes": 13660,
+      "sha256": "b974c61799491497f7b852184737b24c297742606082b71edabfc8a80706294b",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/radar_client/t100_stream.py",
+      "origin_sha256": "9d577584e2b9363b584f2c144c72b1ae21a36bac8b2e45d1e90d1978c464f6dd",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/windows/__init__.py",
+      "bytes": 94,
+      "sha256": "f1faa4ae0d760b7c5a4d1ec57c7e08a3a229dce0215b442b5c2f466ac034033e",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "python/windows/test_repair_core.py",
+      "bytes": 20095,
+      "sha256": "259527bab6595ac6aba97bf0c49ec826b7c3fe927105ad04c11d5f9a64e0e7c8",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/windows/test_repair_core.py",
+      "origin_sha256": "e1ede0bab58a4afc2f721fa38e0a95bdab9d03c13c51bf916192b1db0e2785bd",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/windows/test_repair_resources.py",
+      "bytes": 8411,
+      "sha256": "12d07faf6db6d15bda5c9bf33465563467385bb2f381876c761f9c663d71aa8f",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/windows/test_repair_resources.py",
+      "origin_sha256": "ac5b1fce2794d8acea6ce2770fef0f1be76e88c37f768152213dd6f3265adadd",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/windows/test_t100_stream.py",
+      "bytes": 9600,
+      "sha256": "365268ed38e60f164c223f2087e171b136e4f1b19b8d6364d3289c6db0827eac",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/windows/test_t100_stream.py",
+      "origin_sha256": "63dff10010b2722f9cbaaaca8e86d840365ee2e79326ddff25f1240750cd23a4",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/windows/test_white_building.py",
+      "bytes": 6961,
+      "sha256": "bff3bca43747008e674411703783f789fff06c2bb85ed19afc37679823e2ebb1",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/windows/test_white_building.py",
+      "origin_sha256": "0605316fcb8fcff1a4a68c9e6f62d64b54968d9f7d0455f6d5dc9194ed711922",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "python/windows/test_white_cloud_filter.py",
+      "bytes": 5538,
+      "sha256": "0a51f043688ef5af40a3e0683e1c081f21959f907a1406804bc750fdae1b0357",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "软件/新建图/windows/test_white_cloud_filter.py",
+      "origin_sha256": "b5c949acae6bca54345096d0f8cec26539f88c8b1e44c8e303d35c5c4e14d5ce",
+      "packaging_changes": "license header and LF; ToolsCheck filename case normalized where applicable"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5786,
+      "sha256": "4b8a2293035dacbf8b7a77c584dcd27ee6f2f7c23b41f16fe706be15c611f63d",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 100,
+      "sha256": "f397d6f91c8203ab8abdadfbcaced2eff3e10556a0b87704507b5a8fb5ed5790",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "tools/check_release.py",
+      "bytes": 2203,
+      "sha256": "d6cea30ef7ec2548eeb158bb0d2c72f34a9bddc284d475edd056d3f57d5f0a84",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    },
+    {
+      "path": "tools/Test-Java.ps1",
+      "bytes": 905,
+      "sha256": "1934ae2034a03e2dce7e2eee7a83ab2d5c992e6aba77bc83dd7f50d5faf49056",
+      "license": "LicenseRef-T100-NonCommercial-1.0",
+      "origin": "new release documentation/tooling"
+    }
+  ]
+}
